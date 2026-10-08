@@ -27,10 +27,23 @@ const obj2={3:"a",4:"b"}
 //const obj3={obj1, obj2}
 //const obj3=Object.assign({},obj1, obj2);
 const obj3={...obj1, ...obj2};  //best
-console.log(obj3);
+// console.log(obj3);
 
-console.log(Object.keys(user));
-console.log(Object.values(user));
-console.log(Object.entries(user));
-console.log(user.hasOwnProperty('isLoggedIn'));
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
+// console.log(user.hasOwnProperty('isLoggedIn'));
+
+
+const courese={
+    courseName:"javascript",
+    price:"free",
+    courseInstructor:"me"
+}
+
+//course.courseInstructor
+
+const {courseInstructor}=courese;
+console.log(courseInstructor);
+
 
